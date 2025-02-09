@@ -1,0 +1,224 @@
+@media(max-width:767px){
+    .header{
+        width:100%;
+    }
+    .container{
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    body{
+        width: auto;
+    }
+    :root{
+        width: 128%;
+    }
+    /* header */
+    .header .main-nav{
+        width: 124px;
+    }
+    .header .main-nav > li{
+        border-bottom: 1px solid #c0bababb;
+        margin-left: -18px;
+        transition: var(--main-transition);
+    }
+    .header .main-nav > li:nth-last-child(){
+        border: none;
+    }
+    .header .main-nav > li a:hover{
+        padding-top: 20px;
+        padding-left: 5px;
+    }
+    .header .main-nav > li >a{
+        margin-left: -93px;
+    }
+    .main-nav{
+        width: 108px;
+        display: none;
+    }
+    .header .menu-icon i{
+        display: block;
+        font-size: 21px;
+        color: #64a8ab;
+        padding-right: 10px;
+    }
+    .header i{display: block;}
+    .home{display: none;}
+    /* end header */
+    /* about */
+    .info{
+        display: grid;
+        grid-template-columns: 380px;
+        grid-template-rows: 300px;
+        width: 100%;
+    }
+    .about{
+        height: 1150px;
+        margin-top: -10px;
+        width: 100%;
+    }
+    .info .cont{
+        margin-left: 33px;
+        margin-top: 20px;
+    }
+    .about-me{
+        padding-left: 0;
+        margin-top: 110px;
+    }
+    .about-me h3{
+        width: 237px;
+    }
+    .about-me p{
+        width: 336px;
+        min-width: 350px;
+    }
+    .about-me::before{
+        display: none;
+    }
+    .about-me .information{
+        display: grid;
+        grid-template-columns: 400px;
+        width: 100%;
+        margin-top: 27px;
+        border: none;
+        padding-left: 0;
+    }
+    .about-me .information .two{
+        padding-left: 20px;
+    }
+/* end about */
+/* start happy client */
+.happy {
+    margin-bottom: 70px;
+    height: 819px;
+}
+.happy .overlay-happy{
+    display: none;
+}
+.happy .happy-grid{
+    gap: 70px;
+    grid-template-columns: 264px;
+    margin-top: 64px;
+    grid-template-rows: 85px;
+    width: 100%;
+}
+.happy-grid .happy-box {
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: -109px;
+}
+/* end happy client */
+/* start services */
+.services{
+height: auto;
+padding-left: 0;
+padding-right: 0;
+}
+.services .heading{
+    padding-right: 0;
+    padding-left: 0;
+}
+.services .show-services{
+    display: grid;
+    grid-template-columns: 367px;
+    margin-left: 18px;
+}
+.skill .text{
+    padding: 0;
+}
+.skill .text .grid{
+    width: 0;
+}
+/* end services */
+/* start skill */
+.skill{
+    width: 100%;
+    height: auto
+}
+.skill .grid{
+    grid-template-columns: 500px;
+    width: 100%;
+    padding: 5px;
+    margin: 0;
+    gap: 20px;
+}
+.skill .grid .skill-bar{
+    width: 340px;
+    margin-top: 16px;
+}
+.skill .text .grid {
+        width: 100%;
+        padding-left: 51px;
+        margin-top: 21px;
+}
+/* end skill */
+/* start resumes */
+.resumes{
+padding: 13px;
+}
+.resumes h1{
+    padding: 0;
+}
+.resumes .resumes-grid{
+    display: grid;
+    grid-template-columns: 400px;
+    width: 100%;
+}
+.resumes-grid .box-1{
+    padding-left: 0;
+}
+.resumes .box-1 .text-content p{
+    width: 328px;
+    line-height: 1.6;
+}
+.resumes-grid .box-1 .text-content ul{
+    padding-left: 10px;
+}
+.resumes .box-1 .Education h4{
+    width: 276px;
+    line-height: 1.8;
+}
+.resumes .box-1 .Education span{
+    padding-left: 10px;
+}
+.resumes .box-1 .Education p{
+    padding-left: 10px;
+        width: 331px;
+        line-height: 1.8;
+}
+/* end resumes */
+/* start contact us */
+.contact-us{
+    padding-left: 0;
+    padding-right: 0;
+}
+.contact-us .contact-grid{
+    width: 100%;
+    grid-template-columns: 500px;
+    grid-template-rows: 194px;
+}
+.contact-us .contact-grid form {
+    margin-top: 32px;
+    width: 432px;
+}
+.contact-us .contact-grid form .input-box input {
+    width:384px; 
+}
+.contact-us .contact-grid form .input-box button{
+        margin-left: 131px;
+        margin-top: 20px;
+}
+/* end contact us */
+}
+@media(min-width:992px){
+    .container{
+        width: 970px;
+    }
+}
+@media(min-width:1200){
+    .container{
+        width: 1170px;
+    }
+}

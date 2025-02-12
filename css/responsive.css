@@ -1,6 +1,6 @@
 @media(max-width:767px){
     .header{
-        width:100%;
+        width:128%;
     }
     .container{
         width: 100%;
@@ -8,10 +8,7 @@
         padding-right: 0;
     }
     body{
-        width: auto;
-    }
-    :root{
-        width: 128%;
+        width: 100%;
     }
     /* header */
     .header .main-nav{
@@ -55,7 +52,7 @@
     .about{
         height: 1150px;
         margin-top: -10px;
-        width: 100%;
+        width: 129%;
     }
     .info .cont{
         margin-left: 33px;
@@ -91,6 +88,7 @@
 .happy {
     margin-bottom: 70px;
     height: 819px;
+    width: 130%;
 }
 .happy .overlay-happy{
     display: none;
@@ -115,6 +113,7 @@
 height: auto;
 padding-left: 0;
 padding-right: 0;
+width: 131%;
 }
 .services .heading{
     padding-right: 0;
@@ -134,8 +133,8 @@ padding-right: 0;
 /* end services */
 /* start skill */
 .skill{
-    width: 100%;
-    height: auto
+    width: 130%;
+    height: 540px
 }
 .skill .grid{
     grid-template-columns: 500px;
@@ -153,10 +152,19 @@ padding-right: 0;
         padding-left: 51px;
         margin-top: 21px;
 }
+.text h1::before{
+    content: "";
+    position: absolute;
+    width: 31px;
+    height: 2px;
+    background-color: #15887e;
+    top: 40px;
+}
 /* end skill */
 /* start resumes */
 .resumes{
 padding: 13px;
+width: 130%;
 }
 .resumes h1{
     padding: 0;
@@ -193,6 +201,13 @@ padding: 13px;
 .contact-us{
     padding-left: 0;
     padding-right: 0;
+    width: 130%;
+}
+.contact-us h1{
+    padding: 10px 20px;
+}
+.contact-us .contact-grid form .input-box{
+    gap: 4px;
 }
 .contact-us .contact-grid{
     width: 100%;
@@ -203,8 +218,12 @@ padding: 13px;
     margin-top: 32px;
     width: 432px;
 }
+.contact-us .contact-grid form .input-box label {
+    padding-top: 31px;
+}
 .contact-us .contact-grid form .input-box input {
-    width:384px; 
+    width: 100%;
+    height: 30px;
 }
 .contact-us .contact-grid form .input-box button{
         margin-left: 131px;
